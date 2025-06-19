@@ -9,11 +9,11 @@ Welcome to my personal GitHub Pages website! Here, I’ll be sharing:
 
 The website is currently **under construction**, but stay tuned, more content is coming soon!
 
-🌐 Visit the live site: [marius-test.github.io](https://marius-test.github.io)
+🌐 Visit the live website: [marius-test.github.io](https://marius-test.github.io)
 
 ## 🔧 Tech Stack
 
-This site is built using:
+This website is built using:
 
 - **HTML** – for content structure  
 - **CSS** – for styling and layout  
