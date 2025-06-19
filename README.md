@@ -7,7 +7,7 @@ Welcome to my personal GitHub Pages website! Here, I’ll be sharing:
 - My videogame concepts and ideas  
 - And last but not least, a portfolio of my work in QA, automation, and programming  
 
-The website is currently **under construction**, but stay tuned — more content is coming soon!
+The website is currently **under construction**, but stay tuned, more content is coming soon!
 
 🌐 Visit the live site: [marius-test.github.io](https://marius-test.github.io)
 
