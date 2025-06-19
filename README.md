@@ -17,7 +17,7 @@ This website is built using:
 
 - **HTML** – for content structure  
 - **CSS** – for styling and layout  
-- **JavaScript** – for interactivity (coming soon)
+- **JavaScript** – for interactivity
 
 Hosted via [GitHub Pages](https://pages.github.com/).
 
