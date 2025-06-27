@@ -1,26 +1,23 @@
 # marius-test.github.io
 
-Welcome to my personal GitHub Pages website! Here, I’ll be sharing:
+This repository contains the source code for my personal GitHub Pages website.
 
-- Cool side projects and programming experiments  
-- Code snippets, tools, and automation scripts  
-- My videogame concepts and ideas  
-- And last but not least, a portfolio of my work in QA, automation, and programming  
+The website features:
 
-The website is currently **under construction**, but stay tuned, more content is coming soon!
+- My portfolio showcasing QA, automation, and programming projects  
+- Programming experiments and scripting projects, especially in Python
+- Useful code snippets, tools, and automation scripts
 
-🌐 Visit the live website: [marius-test.github.io](https://marius-test.github.io)
+Live website: [marius-test.github.io](https://marius-test.github.io)
 
-## 🔧 Tech Stack
+## Tech Stack
 
-This website is built using:
+- **HTML** for content structure  
+- **CSS** for styling and layout  
+- **JavaScript** for interactivity  
 
-- **HTML** – for content structure  
-- **CSS** – for styling and layout  
-- **JavaScript** – for interactivity
-
-Hosted via [GitHub Pages](https://pages.github.com/).
+Hosted on [GitHub Pages](https://pages.github.com/).
 
 ---
 
-📫 Want to connect? Feel free to reach out via GitHub or follow my updates!
+🚧 The website is currently **under construction**.
