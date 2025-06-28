@@ -20,4 +20,4 @@ Hosted on [GitHub Pages](https://pages.github.com/).
 
 ---
 
-#### The website is... 🚧 **under construction** 🚧
+The website is... 🚧 **under construction** 🚧
