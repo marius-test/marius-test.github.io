@@ -24,10 +24,12 @@
       background-color: #e0e0e0;
       color: #333;
     }
+
     .intro {
       text-align: center;
       margin-bottom: 24px;
     }
+
     .content {
       display: flex;
       justify-content: center;
@@ -47,9 +49,14 @@
       box-sizing: border-box; /* include padding in width */
     }
 
-    .left h3, .right h3 {
-      margin-top: 0;
+    h3 {
+      text-align: center;
     }
+
+    .centered {
+    text-align: center;
+    }
+
     table {
       margin: 0 auto;
       border: 1px solid #000;
@@ -60,19 +67,24 @@
       border-radius: 4px;
       box-shadow: 0 0 5px rgba(0,0,0,0.1);
     }
+    
     th, td {
       padding: 4px 8px;
       border: 1px solid #000;
     }
+
     th {
       background-color: #c0c0c0;
     }
+
     tbody tr:nth-child(even) {
       background-color: #f4f4f4;
     }
+
     tbody tr:nth-child(odd) {
       background-color: #ffffff;
     }
+
     caption {
       font-size: 24px;
       font-weight: bold;
@@ -86,39 +98,31 @@
   <div class="intro">
     <h1>Hello, I'm Marius!</h1>
     <h2>Welcome to my personal website.</h2>
-
-    <p>
-      <img
-        src="/images/under-construction-1.gif"
-        alt="Under Construction"
-        style="vertical-align: middle; height: 48px;"
-      />
-    </p>
   </div>
 
   <div class="content">
     <div class="left">
       <h3>The Zen of Python</h3>
       <p>
-        Beautiful is better than ugly.
-        Explicit is better than implicit.
-        Simple is better than complex.
-        Complex is better than complicated.
-        Flat is better than nested.
-        Sparse is better than dense.
-        Readability counts.
-        Special cases aren't special enough to break the rules.
-        Although practicality beats purity.
-        Errors should never pass silently.
-        Unless explicitly silenced.
-        In the face of ambiguity, refuse the temptation to guess.
-        There should be one-- and preferably only one --obvious way to do it.
-        Although that way may not be obvious at first unless you're Dutch.
-        Now is better than never.
-        Although never is often better than *right* now.
-        If the implementation is hard to explain, it's a bad idea.
-        If the implementation is easy to explain, it may be a good idea.
-        Namespaces are one honking great idea -- let's do more of those!
+        Beautiful is better than ugly.<br>
+        Explicit is better than implicit.<br>
+        Simple is better than complex.<br>
+        Complex is better than complicated.<br>
+        Flat is better than nested.<br>
+        Sparse is better than dense.<br>
+        Readability counts.<br>
+        Special cases aren't special enough to break the rules.<br>
+        Although practicality beats purity.<br>
+        Errors should never pass silently.<br>
+        Unless explicitly silenced.<br>
+        In the face of ambiguity, refuse the temptation to guess.<br>
+        There should be one-- and preferably only one --obvious way to do it.<br>
+        Although that way may not be obvious at first unless you're Dutch.<br>
+        Now is better than never.<br>
+        Although never is often better than *right* now.<br>
+        If the implementation is hard to explain, it's a bad idea.<br>
+        If the implementation is easy to explain, it may be a good idea.<br>  
+        Namespaces are one honking great idea -- let's do more of those!<br>
       </p>
     </div>
 
@@ -175,5 +179,14 @@
       </tbody>
     </table>
   </div>
+
+  <p class="centered">
+    <img
+      src="/images/under-construction-1.gif"
+      alt="Under Construction"
+      style="vertical-align: middle; height: 48px;"
+    />
+  </p>
+
 </body>
 </html>
