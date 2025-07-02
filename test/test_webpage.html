@@ -30,24 +30,42 @@
     }
     .content {
       display: flex;
-      justify-content: center; /* center horizontally */
+      justify-content: center;
       align-items: flex-start;
+      gap: 40px;
+      max-width: 1200px; /* limit total width */
+      margin: 0 auto; /* center horizontally */
+      flex-wrap: nowrap; /* prevent wrapping */
     }
-    .left {
-      min-width: 35%;
+
+    .left, .right {
+      width: 50%; /* each half of container */
+      background-color: #fff;
+      padding: 16px;
+      border-radius: 4px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      box-sizing: border-box; /* include padding in width */
+    }
+
+    .left h3, .right h3 {
+      margin-top: 0;
     }
     table {
-      margin: 0 auto; /* centers the table */
+      margin: 0 auto;
       border: 1px solid #000;
-      border-collapse: separate; /* double-border style */
-      border-spacing: 2px;        /* tweak for more spacing */
+      border-collapse: separate;
+      border-spacing: 2px;
+      width: 100%;
+      background-color: #fff;
+      border-radius: 4px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
     }
     th, td {
       padding: 4px 8px;
       border: 1px solid #000;
     }
     th {
-      background-color: #c0c0c0; /* classic gray */
+      background-color: #c0c0c0;
     }
     tbody tr:nth-child(even) {
       background-color: #f4f4f4;
@@ -79,6 +97,43 @@
   </div>
 
   <div class="content">
+    <div class="left">
+      <h3>The Zen of Python</h3>
+      <p>
+        Beautiful is better than ugly.
+        Explicit is better than implicit.
+        Simple is better than complex.
+        Complex is better than complicated.
+        Flat is better than nested.
+        Sparse is better than dense.
+        Readability counts.
+        Special cases aren't special enough to break the rules.
+        Although practicality beats purity.
+        Errors should never pass silently.
+        Unless explicitly silenced.
+        In the face of ambiguity, refuse the temptation to guess.
+        There should be one-- and preferably only one --obvious way to do it.
+        Although that way may not be obvious at first unless you're Dutch.
+        Now is better than never.
+        Although never is often better than *right* now.
+        If the implementation is hard to explain, it's a bad idea.
+        If the implementation is easy to explain, it may be a good idea.
+        Namespaces are one honking great idea -- let's do more of those!
+      </p>
+    </div>
+
+    <div class="right">
+      <h3>Contact Info</h3>
+      <p>Email: <a href="mailto:marius.briscut5@gmail.com">marius.briscut5@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/marius-briscut" target="_blank" rel="noopener noreferrer">linkedin.com/in/marius-briscut</a></p>
+      <p>GitHub: <a href="https://github.com/marius-test" target="_blank" rel="noopener noreferrer">github.com/marius-test</a></p>
+      <p>Resume: 
+        <a href="/resume/marius_briscut_resume.pdf" download class="btn-download">marius_briscut_resume.pdf</a>
+      </p>
+    </div>
+  </div>
+
+  <div class="content" style="margin-top: 40px;">
     <div class="left">
       <table>
         <caption>Projects Portfolio</caption>
