@@ -22,4 +22,4 @@ Hosted on [GitHub Pages](https://pages.github.com/).
 
 ---
 
-The website is... 🚧 **under construction** 🚧
+🚧 This project is currently in progress and continuously evolving as I add more features and updates regularly. 🚧
