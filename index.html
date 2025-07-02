@@ -30,28 +30,21 @@
     }
     .content {
       display: flex;
-      gap: 24px;
+      justify-content: center; /* center horizontally */
       align-items: flex-start;
     }
     .left {
-      flex: 2;
       min-width: 35%;
     }
-    .right {
-      flex: 1;
-      min-width: 60%;
-      background-color: #f9f9f9;
-      padding: 5px;
-      border: 5px solid #ccc;
-      border-radius: 5px;
-    }
-    table, th, td {
+    table {
+      margin: 0 auto; /* centers the table */
       border: 1px solid #000;
       border-collapse: separate; /* double-border style */
       border-spacing: 2px;        /* tweak for more spacing */
     }
     th, td {
       padding: 4px 8px;
+      border: 1px solid #000;
     }
     th {
       background-color: #c0c0c0; /* classic gray */
@@ -96,7 +89,7 @@
             <th>Summary</th>
           </tr>
         </thead>
-          <tbody>
+        <tbody>
             <!-- automation -->
             <tr><td>Automation</td><td><a href="https://github.com/marius-test/selenium_automation_framework" target="_blank">selenium_automation_framework</a></td><td>Selenium Automation Framework</td></tr>
             <tr><td>Automation</td><td><a href="https://github.com/marius-test/selenium_automation_testing" target="_blank">selenium_automation_testing</a></td><td>Selenium Automation Testing</td></tr>
@@ -125,18 +118,8 @@
             <tr><td>Hobby</td><td><a href="https://github.com/marius-test/movies_by_year" target="_blank">movies_by_year</a></td><td>Sort Movies by Release Year</td></tr>
             <tr><td>Hobby</td><td><a href="https://github.com/marius-test/solar_system_simulation" target="_blank">solar_system_simulation</a></td><td>Solar System Simulation in Python</td></tr>
             <tr><td>Hobby</td><td><a href="https://github.com/marius-test/retro_programming" target="_blank">retro_programming</a></td><td>Programming Playground for Pascal, Fortran, C++</td></tr>
-          </tbody>
+        </tbody>
       </table>
-    </div>
-
-    <div class="right">
-      <p style="font-size: 24px; font-weight: bold; text-align: center;">Resume</p>
-      <iframe
-        src="/resume/marius_briscut_resume.pdf"
-        width="100%"
-        height="800px"
-        style="border: 1px solid #664; border-radius: 4px;">
-      </iframe>
     </div>
   </div>
 </body>
