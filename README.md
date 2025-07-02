@@ -10,7 +10,9 @@ The website features:
 
 Live website: [marius-test.github.io](https://marius-test.github.io)
 
-### Tech Stack
+---
+
+### Tools and Libraries
 
 - **HTML** for content structure  
 - **CSS** for styling and layout  
@@ -20,4 +22,4 @@ Hosted on [GitHub Pages](https://pages.github.com/).
 
 ---
 
-The website is... 🚧 **under construction** 🚧
+🚧 This project is currently **in progress** and continuously evolving as I add more features and updates regularly. 🚧
