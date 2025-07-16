@@ -141,6 +141,28 @@
     font-weight: 600;
     background: #f0f0f0;
   }
+
+  @media (max-width: 600px) {
+    .content {
+      flex-direction: column; /* Stack vertically */
+      gap: 16px; /* Smaller gap between stacked blocks */
+      max-width: 100%; /* Allow full width on mobile */
+    }
+
+    .left, .right {
+      width: 100%; /* Full width */
+      box-shadow: none; /* Optional: simplify shadows on small screens */
+      border-radius: 4px; /* Slightly rounded edges for mobile */
+    }
+
+    body {
+      font-size: 16px; /* Slightly bigger text on small screens */
+    }
+
+    table {
+      font-size: 14px; /* Increase table font size for readability */
+    }
+  }
 </style>
 
 </head>
