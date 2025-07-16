@@ -5,6 +5,7 @@
         "mecanique",
         "Platformer",
         "pytest",
-        "spacebase"
+        "spacebase",
+        "WASD"
     ]
 }
