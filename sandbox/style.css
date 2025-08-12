@@ -1,8 +1,8 @@
 body {
     font-family: 'JetBrains Mono', monospace;
     padding: 16px;
-    background: linear-gradient(135deg, #c0d6e4 0%, #e8f0f8 100%);
-    color: #000080;  /* classic navy blue text */
+    background: linear-gradient(135deg, #EFF2F5 0%, #DAE0E7 100%);
+    color: #000000;  /* black text */
     font-size: 14px;
     line-height: 1.5;
 }
@@ -24,34 +24,34 @@ body {
 
 .left {
     width: 55%;
-    background: #f0f0f0;
-    border: 3px solid #000080;  /* thick navy border */
+    background: #FFFFFF;  /* pure white */
+    border: 3px solid #000000;  /* black border */
     padding: 16px;
     box-sizing: border-box;
     box-shadow:
-        inset 2px 2px 0 #ffffff,
-        inset -2px -2px 0 #000080;
-    border-radius: 0;  /* sharp edges like old ui */
+        inset 2px 2px 0 #FFFFFF,
+        inset -2px -2px 0 #000000;
+    border-radius: 0;  /* sharp edges */
 }
 
 .right {
     width: 45%;
-    background: #f0f0f0;
-    border: 3px solid #000080;  /* thick navy border */
+    background: #FFFFFF;  /* pure white */
+    border: 3px solid #000000;  /* black border */
     padding: 16px;
     box-sizing: border-box;
     box-shadow:
-        inset 2px 2px 0 #ffffff,
-        inset -2px -2px 0 #000080;
-    border-radius: 0;  /* sharp edges like old ui */
+        inset 2px 2px 0 #FFFFFF,
+        inset -2px -2px 0 #000000;
+    border-radius: 0;  /* sharp edges */
 }
 
 h3 {
     text-align: center;
     font-weight: 700;
     font-size: 18px;
-    color: #000080;
-    border-bottom: 2px dotted #000080;
+    color: #000000;  /* black */
+    border-bottom: 2px dotted #000000;
     padding-bottom: 6px;
     margin-bottom: 12px;
 }
@@ -64,83 +64,83 @@ table {
     margin: 0 auto;
     border-collapse: collapse;
     width: 100%;
-    background: #fefefe;
-    border: 2px solid #000080;
+    background: #FFFFFF;  /* pure white */
+    border: 2px solid #000000;  /* black border */
     box-shadow:
-        2px 2px 0 #ffffff,
-        -2px -2px 0 #000080;
+        2px 2px 0 #FFFFFF,
+        -2px -2px 0 #000000;
     font-size: 13px;
 }
 
 th {
-    background-color: #000080;
-    color: #fff;
+    background-color: #000000;  /* black */
+    color: #FFFFFF;  /* white text */
     padding: 6px 10px;
-    border: 2px solid #000080;
+    border: 2px solid #000000;
 }
 
 td {
-    border: 2px solid #000080;
+    border: 2px solid #000000;
     padding: 6px 10px;
-    color: #000080;
+    color: #000000;  /* black */
 }
 
 tbody tr:nth-child(even) {
-    background-color: #d0d8e8;
+    background-color: #DAE0E7;
 }
 
 tbody tr:nth-child(odd) {
-    background-color: #e8f0f8;
+    background-color: #EFF2F5;
 }
 
 caption {
     font-size: 20px;
     font-weight: 700;
-    color: #000080;
+    color: #000000;
     margin-bottom: 8px;
     text-align: center;
 }
 
 a {
-    color: #0000cd;
+    color: #000000;  /* black links */
     text-decoration: underline dotted;
 }
 
 a:hover {
-    color: #ff0000;
+    color: #000000;  /* keep black on hover or change to something else if you want */
     text-decoration: underline;
 }
 
 footer {
-    border-top: 2px dotted #000080;
+    border-top: 2px dotted #000000;
     padding: 12px 16px;
     font-size: 12px;
-    color: #000080;
+    color: #000000;
     text-align: center;
     margin-top: 48px;
     font-weight: 600;
-    background: #f0f0f0;
+    background: #FFFFFF;  /* pure white */
 }
 
 /* responsive layout for small screens */
 @media (max-width: 600px) {
     .content {
-        flex-direction: column;  /* stack vertically */
-        gap: 16px;  /* smaller gap between stacked blocks */
-        max-width: 100%;  /* allow full width on mobile */
+        flex-direction: column;
+        gap: 16px;
+        max-width: 100%;
     }
 
     .left, .right {
-        width: 100%;  /* full width */
-        box-shadow: none;  /* optional: simplify shadows on small screens */
-        border-radius: 4px;  /* slightly rounded edges for mobile */
+        width: 100%;
+        box-shadow: none;
+        border-radius: 4px;
     }
 
     body {
-        font-size: 16px;  /* slightly bigger text on small screens */
+        font-size: 16px;
     }
 
     table {
-        font-size: 14px;  /* increase table font size for readability */
+        font-size: 14px;
     }
 }
