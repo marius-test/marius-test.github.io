@@ -122,6 +122,21 @@ footer {
     background: #FFFFFF;  /* pure white */
 }
 
+.badge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* allows badges to wrap to a new line on smaller screens */
+    gap: 5px; /* adds space between each badge */
+    margin-top: 5px;
+}
+
+.badge img {
+    width: 110px;
+    height: 110px;
+    object-fit: contain; /* prevents image distortion */
+}
+
 /* responsive layout for small screens */
 @media (max-width: 600px) {
     .content {
