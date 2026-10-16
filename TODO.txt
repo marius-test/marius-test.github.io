@@ -1,1 +1,12 @@
-TODO
+TODO: Regroup portfolio repositories into five thematic categories:
+  - Physics, Mathematics & Visualization
+  - Game Development
+  - Python Tools & Experiments
+  - QA & Test Automation
+  - Personal Projects & Exploration
+
+TODO: Add missing repositories, including newly created projects.
+
+TODO: Review repository descriptions and category assignments.
+
+TODO: Update the portfolio table in index.html and adjust style.css if needed.
